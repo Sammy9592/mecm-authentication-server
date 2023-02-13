@@ -1,0 +1,20 @@
+logging:
+  config: classpath:log4j2.xml
+  level:
+    root: INFO
+
+server:
+  port: 8012
+
+spring:
+  webflux:
+    base-path: /api
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+
+# noinspection undefined
+mecm:
+  auth:
+    token:
+      enable: false
