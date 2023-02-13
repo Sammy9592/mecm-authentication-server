@@ -2,6 +2,7 @@ mecm:
   clients:
     certsMap:
       user-idv:
+        # VXNlcklEViMxMjM=
         credential: UserIDV#123
         clientId: f03d0082a7f24c448dbb5e263dd50f65
         clientSecret: cd7c403e-1b83-49cb-aa27-5dc31ab55b88

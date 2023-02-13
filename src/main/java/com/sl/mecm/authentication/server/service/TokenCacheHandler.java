@@ -2,11 +2,12 @@ package com.sl.mecm.authentication.server.service;
 
 import org.ehcache.Cache;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
-@Service
-public class TokenCacheService {
+@Component
+public class TokenCacheHandler {
 
     @Autowired
     private Cache<String, String> authTokenCache;
